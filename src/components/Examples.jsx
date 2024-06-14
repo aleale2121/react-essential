@@ -28,6 +28,8 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples">
       <Tabs
+        ButtonsContainer="menu"
+        //buttonsContainer="menu"
         buttons={
           <>
             <TabButton
